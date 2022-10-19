@@ -7,10 +7,10 @@ import GitHub from "../assets/GitHub.png"
 function Footer() {
     return (
       <div className="footer">
-        <img src={Twitter} className="footer-img"></img>
-        <img src={Facebook} className="footer-img"></img>
-        <img src={Instagram} className="footer-img"></img>
-        <img src={GitHub} className="footer-img"></img>
+        <a href="https://twitter.com/iambarzini_"><img src={Twitter} className="footer-img"></img></a>
+        <a href="https://www.facebook.com/nwobodoamechidavid"><img src={Facebook} className="footer-img"></img></a>
+        <a href="https://www.instagram.com/iambarzini/"><img src={Instagram} className="footer-img"></img></a>
+        <a href="https://github.com/Python-David"><img src={GitHub} className="footer-img"></img></a>
       </div>
     )
   }
